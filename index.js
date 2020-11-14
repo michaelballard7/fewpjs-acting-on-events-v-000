@@ -15,6 +15,18 @@ dodger.addEventListener('keydown', function(e){
         // now set the amount for movement
         dodger.style.left=`${left - 1}`
     }
+
+
+    if (e.key === 'ArrowRight'){
+
+        // drop the px
+
+        // convert the number
+
+
+        // set the dogdger movement right , if right <parentElement.clientWidth
+
+    }
 } )
 
 // creeate function for move left
