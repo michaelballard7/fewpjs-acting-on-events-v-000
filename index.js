@@ -28,7 +28,7 @@ function moveDodgerRight(e) {
 
     // set the dogdger movement right , if right <parentElement.clientWidth
 
-    if(right < 1080){
+    if(right > 0){
 
         dodger.style.right=`${right + 1}px`
     }
