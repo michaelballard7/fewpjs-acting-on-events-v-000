@@ -39,10 +39,7 @@ dodger.addEventListener('keydown', function(e){
     if(e.key === 'ArrowLeft'){
 
         moveDodgerLeft(e)
-    }
-
-
-    if (e.key === 'ArrowRight'){
+    } else if( e.key === 'ArrowRight'){
 
         moveDodgerRight(e)
 
