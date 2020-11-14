@@ -44,6 +44,3 @@ function moveDodgerRight (){
         dodger.style.right=`${right + 1}`
     }
 }
-
-
-
