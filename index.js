@@ -13,6 +13,8 @@ dodger.addEventListener('keydown', function(e){
         let left = parseInt(leftNumbers, 10)
 
         // now set the amount for movement
+
+        if(dogdger.style.left > 0)
         dodger.style.left=`${left - 1}`
     }
 
@@ -20,6 +22,7 @@ dodger.addEventListener('keydown', function(e){
     if (e.key === 'ArrowRight'){
 
         // drop the px
+
 
         // convert the number
 
