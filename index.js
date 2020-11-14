@@ -31,7 +31,7 @@ function moveDodgerRight(e) {
 
     dodger.style.right = `${right + 1}px`
 
-        
+
 }
 
 // add event listner for keydown event
