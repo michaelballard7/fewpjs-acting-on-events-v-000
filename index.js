@@ -40,12 +40,3 @@ dodger.addEventListener('keydown', function(e){
 
     }
 } )
-
-// creeate function for move left
-
-
-// create a function for move right
-
-
-// create conditional to match key type / evebt
-if()
