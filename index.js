@@ -18,7 +18,7 @@ dodger.addEventListener('keydown', function(e){
     }
 } )
 
-function moveDodgerLeft(){
+function moveDodgerLeft() {
     // drop the px
     let leftNumbers = dodger.style.left.replace("px","")
 
