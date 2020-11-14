@@ -7,7 +7,7 @@ const dodger = document.querySelector('#dodger')
 dodger.addEventListener('keydown', function(e){
     if(e.key === 'ArrowLeft'){
 
-
+        moveDodgerLeft()
     }
 
 
