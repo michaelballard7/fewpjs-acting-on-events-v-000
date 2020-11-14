@@ -21,15 +21,15 @@ function moveDodgerLeft(e) {
 function moveDodgerRight(e) {
     // drop the px
 
-    let rightNumbers = dodger.style.right.replace("px","")
+    let leftNumbers = dodger.style.left.replace("px","")
 
     // convert the number
-    let right = parseInt(rightNumbers, 10)
+    let left = parseInt(rightNumbers, 10)
 
     // set the dogdger movement right , if right <parentElement.clientWidth
 
 
-    dodger.style.right = `${right + 1}px`
+    dodger.style.left = `${left + 1}px`
 
 
 }
