@@ -3,7 +3,7 @@
 const dodger = document.querySelector('#dodger')
 
 
-function moveDodgerLeft() {
+function moveDodgerLeft(e) {
     // drop the px
     let leftNumbers = dodger.style.left.replace("px","")
 
@@ -18,7 +18,7 @@ function moveDodgerLeft() {
     }
 }
 
-function moveDodgerRight() {
+function moveDodgerRight(e) {
     // drop the px
 
     let rightNumbers = dodger.style.right.replace("px","")
