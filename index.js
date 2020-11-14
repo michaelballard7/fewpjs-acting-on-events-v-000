@@ -38,13 +38,13 @@ function moveDodgerRight(e) {
 dodger.addEventListener('keydown', function(e){
     if(e.key === 'ArrowLeft'){
 
-        moveDodgerLeft()
+        moveDodgerLeft(e)
     }
 
 
     if (e.key === 'ArrowRight'){
 
-        moveDodgerRight()
+        moveDodgerRight(e)
 
     }
 } )
