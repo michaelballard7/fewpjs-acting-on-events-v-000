@@ -12,7 +12,7 @@ function moveDodgerLeft(e) {
 
     // now set the amount for movement
 
-    if(left> 0) {
+    if(left > 0) {
 
         dodger.style.left=`${left - 1}px`
     }
