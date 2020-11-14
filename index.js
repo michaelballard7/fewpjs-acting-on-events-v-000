@@ -12,9 +12,9 @@ function moveDodgerLeft() {
 
     // now set the amount for movement
 
-    if(left > 0) {
+    if(dodger.style.left > 0) {
 
-        dodger.style.left=`${left - 1}`
+        dodger.style.left=`${left - 1}px`
     }
 }
 
@@ -28,9 +28,9 @@ function moveDodgerRight() {
 
     // set the dogdger movement right , if right <parentElement.clientWidth
 
-    if(right > 0){
+    if(right < e.target.parentElement.clientWidth){
 
-        dodger.style.right=`${right + 1}`
+        dodger.style.right=`${right + 1}px`
     }
 }
 
