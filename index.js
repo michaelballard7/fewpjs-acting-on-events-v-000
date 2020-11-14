@@ -28,10 +28,10 @@ function moveDodgerRight(e) {
 
     // set the dogdger movement right , if right <parentElement.clientWidth
 
-    if(right){
 
-        dodger.style.right= `${right + 1}px`
-    }
+    dodger.style.right = `${right + 1}px`
+
+        
 }
 
 // add event listner for keydown event
