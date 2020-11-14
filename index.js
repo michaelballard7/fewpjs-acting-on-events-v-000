@@ -15,6 +15,7 @@ dodger.addEventListener('keydown', function(e){
         // now set the amount for movement
 
         if(dogdger.style.left > 0) {
+            
             dodger.style.left=`${left - 1}`
         }
 
