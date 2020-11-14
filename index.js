@@ -30,7 +30,7 @@ function moveDodgerRight(e) {
 
     if(right){
 
-        dodger.style.right=`${right + 1}px`
+        dodger.style.right= `${right + 1}px`
     }
 }
 
