@@ -15,7 +15,7 @@ dodger.addEventListener('keydown', function(e){
         // now set the amount for movement
 
         if(dogdger.style.left > 0) {
-            
+
             dodger.style.left=`${left - 1}`
         }
 
@@ -26,11 +26,14 @@ dodger.addEventListener('keydown', function(e){
 
         // drop the px
 
+        let rightNumbers = dodger.style.right.replace("px","")
 
         // convert the number
-
+        let right = parseInt(rightNumbers, 10)
 
         // set the dogdger movement right , if right <parentElement.clientWidth
+
+        if(right < e.target.parentElement.clientWidth)
 
     }
 } )
