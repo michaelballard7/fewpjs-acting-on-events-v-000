@@ -21,7 +21,7 @@ function moveDodgerLeft(e) {
 function moveDodgerRight(e) {
     // drop the px
 
-    let rightNumbers = dodger.style.right.replace("px","")
+    let rightNumbers = dodger.style.right.replace("px"," ")
 
     // convert the number
     let right = parseInt(rightNumbers, 10)
