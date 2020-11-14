@@ -3,21 +3,6 @@
 const dodger = document.querySelector('#dodger')
 
 
-// add event listner for keydown event
-dodger.addEventListener('keydown', function(e){
-    if(e.key === 'ArrowLeft'){
-
-        moveDodgerLeft()
-    }
-
-
-    if (e.key === 'ArrowRight'){
-
-        moveDodgerRight()
-
-    }
-} )
-
 function moveDodgerLeft() {
     // drop the px
     let leftNumbers = dodger.style.left.replace("px","")
@@ -48,3 +33,18 @@ function moveDodgerRight() {
         dodger.style.right=`${right + 1}`
     }
 }
+
+// add event listner for keydown event
+dodger.addEventListener('keydown', function(e){
+    if(e.key === 'ArrowLeft'){
+
+        moveDodgerLeft()
+    }
+
+
+    if (e.key === 'ArrowRight'){
+
+        moveDodgerRight()
+
+    }
+} )
