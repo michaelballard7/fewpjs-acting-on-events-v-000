@@ -13,7 +13,7 @@ dodger.addEventListener('keydown', function(e){
         let left = parseInt(leftNumbers, 10)
 
         // now set the amount for movement
-        dodger.style.left=`${left + 1}`
+        dodger.style.left=`${left - 1}`
     }
 } )
 
