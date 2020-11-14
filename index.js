@@ -24,19 +24,26 @@ dodger.addEventListener('keydown', function(e){
 
     if (e.key === 'ArrowRight'){
 
-        // drop the px
 
-        let rightNumbers = dodger.style.right.replace("px","")
-
-        // convert the number
-        let right = parseInt(rightNumbers, 10)
-
-        // set the dogdger movement right , if right <parentElement.clientWidth
-
-        if(right < e.target.parentElement.clientWidth){
-
-            dodger.style.right=`${right + 1}`
-        }
 
     }
 } )
+
+function moveDodgerRight (){
+    // drop the px
+
+    let rightNumbers = dodger.style.right.replace("px","")
+
+    // convert the number
+    let right = parseInt(rightNumbers, 10)
+
+    // set the dogdger movement right , if right <parentElement.clientWidth
+
+    if(right < e.target.parentElement.clientWidth){
+
+        dodger.style.right=`${right + 1}`
+    }
+}
+
+
+
