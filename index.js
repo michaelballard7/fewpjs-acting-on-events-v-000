@@ -33,7 +33,10 @@ dodger.addEventListener('keydown', function(e){
 
         // set the dogdger movement right , if right <parentElement.clientWidth
 
-        if(right < e.target.parentElement.clientWidth)
+        if(right < e.target.parentElement.clientWidth){
+
+            dodger.style.right=`${right + 1}`
+        }
 
     }
 } )
