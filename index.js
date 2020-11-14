@@ -51,6 +51,3 @@ dodger.addEventListener('keydown', function(e){
     }
 
 } )
-
-
-
