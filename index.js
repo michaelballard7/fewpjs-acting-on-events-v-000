@@ -33,7 +33,7 @@ function moveDodgerLeft(){
     }
 }
 
-function moveDodgerRight(){
+function moveDodgerRight() {
     // drop the px
 
     let rightNumbers = dodger.style.right.replace("px","")
